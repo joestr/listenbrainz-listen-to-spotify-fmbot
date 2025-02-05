@@ -1,0 +1,62 @@
+[
+  {
+    "inserted_at": 1698796800,
+    "listened_at": 1558462999,
+    "track_metadata": {
+      "track_name": "Viva La Vida (Eastern Odyssey Remix)",
+      "artist_name": "Coldplay",
+      "mbid_mapping": {
+        "caa_id": 39198351005,
+        "artists": [
+          {
+            "artist_mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+            "join_phrase": "",
+            "artist_credit_name": "Coldplay"
+          }
+        ],
+        "artist_mbids": ["cc197bad-dc9c-440d-a5b5-d52ba2e14234"],
+        "release_mbid": "ab5e9dce-dc97-482d-a29f-786fe2211812",
+        "recording_mbid": "307ce9da-5690-4e21-ab71-9d12ea106e52",
+        "recording_name": "Viva la Vida",
+        "caa_release_mbid": "be065ef0-a90e-3ce4-a18d-9a45ec7c611b"
+      },
+      "recording_msid": "c629d15c-3626-417d-a040-1c2cd7be5d35",
+      "additional_info": {
+        "artist_msid": "6599e41e-390c-4855-a2ac-68ee798538b4",
+        "release_msid": null,
+        "listening_from": "lastfm",
+        "recording_msid": "c629d15c-3626-417d-a040-1c2cd7be5d35"
+      }
+    }
+  },
+  {
+    "inserted_at": 1738428476.408529,
+    "listened_at": 1738428380,
+    "track_metadata": {
+      "track_name": "Pandabär",
+      "artist_name": "Markus Becker",
+      "mbid_mapping": {
+        "caa_id": 17625709974,
+        "artists": [
+          {
+            "artist_mbid": "5dc7034a-23fd-4e75-a2ae-23f090931ac2",
+            "join_phrase": "",
+            "artist_credit_name": "Markus Becker"
+          }
+        ],
+        "artist_mbids": ["5dc7034a-23fd-4e75-a2ae-23f090931ac2"],
+        "release_mbid": "9eaead3c-8008-41ee-8798-1a0eaf72cdf7",
+        "recording_mbid": "91afa78b-04d3-4e37-b082-b5288271b2a0",
+        "recording_name": "Pandabär",
+        "caa_release_mbid": "9eaead3c-8008-41ee-8798-1a0eaf72cdf7"
+      },
+      "release_name": "King of Kidsclub",
+      "recording_msid": "19d5b0c4-db0f-4565-8d6d-98a6f48bcf0b",
+      "additional_info": {
+        "duration_ms": 189000,
+        "submission_client": "Pano Scrobbler",
+        "submission_client_version": "3.44 - 2025, Jan 08"
+      }
+    }
+  }
+]

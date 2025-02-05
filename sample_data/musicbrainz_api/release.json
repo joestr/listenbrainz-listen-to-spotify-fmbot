@@ -1,0 +1,134 @@
+{
+  "date": "2012-07-20",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "artist-credit": [
+    {
+      "artist": {
+        "name": "De Randfichten",
+        "sort-name": "Randfichten, De",
+        "id": "96b02a91-f0d0-4c8d-bbbd-7d8b0472b609",
+        "disambiguation": "",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": " & ",
+      "name": "De Randfichten"
+    },
+    {
+      "name": "Markus Becker",
+      "joinphrase": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Markus Becker",
+        "disambiguation": "schlager singer",
+        "id": "5dc7034a-23fd-4e75-a2ae-23f090931ac2",
+        "sort-name": "Becker, Markus",
+        "type": "Person"
+      }
+    }
+  ],
+  "country": "XW",
+  "packaging": "None",
+  "cover-art-archive": {
+    "front": true,
+    "count": 1,
+    "artwork": true,
+    "back": false,
+    "darkened": false
+  },
+  "barcode": "5099970574654",
+  "text-representation": { "script": "Latn", "language": "eng" },
+  "disambiguation": "",
+  "id": "5ded2612-b876-4c2d-914e-7b483492ef19",
+  "title": "Du kleine Fliege",
+  "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+  "media": [
+    {
+      "track-count": 4,
+      "format": "Digital Media",
+      "track-offset": 0,
+      "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+      "title": "",
+      "position": 1,
+      "tracks": [
+        {
+          "length": 173000,
+          "id": "60346a30-c4e0-46ac-bfe4-e6d76e2106be",
+          "recording": {
+            "disambiguation": "",
+            "id": "8a9802c3-c9c3-4410-a096-48c478dac5a7",
+            "video": false,
+            "title": "Du kleine Fliege (De Randfichten & Markus Becker Edit)",
+            "first-release-date": "2012-07-20",
+            "length": 173000
+          },
+          "title": "Du kleine Fliege (De Randfichten & Markus Becker Edit)",
+          "position": 1,
+          "number": "1"
+        },
+        {
+          "title": "Du kleine Fliege",
+          "number": "2",
+          "position": 2,
+          "id": "2fa433c1-0d28-4544-bf08-5aa10c4ad9a3",
+          "recording": {
+            "length": 176000,
+            "disambiguation": "",
+            "id": "3cc50876-e11f-4f46-8b25-0ae5e0e3c964",
+            "video": false,
+            "first-release-date": "2012-07-20",
+            "title": "Du kleine Fliege"
+          },
+          "length": 176000
+        },
+        {
+          "number": "3",
+          "position": 3,
+          "title": "Du kleine Fliege (Markus Becker Solo Version)",
+          "recording": {
+            "title": "Du kleine Fliege (Markus Becker Solo Version)",
+            "first-release-date": "2012-07-20",
+            "disambiguation": "",
+            "id": "75c153c1-60d1-40e8-bd42-de1d8cd7254d",
+            "video": false,
+            "length": 173000
+          },
+          "id": "dd746b25-e26f-4bb1-909f-124c7c7fb414",
+          "length": 173000
+        },
+        {
+          "title": "Du kleine Fliege",
+          "number": "4",
+          "position": 4,
+          "id": "98f83e72-a876-46d2-8101-eb0fac833047",
+          "recording": {
+            "length": 173000,
+            "id": "439f39f3-8c13-4222-9004-dbe08341debf",
+            "disambiguation": "",
+            "video": false,
+            "title": "Du kleine Fliege",
+            "first-release-date": "2012-07-20"
+          },
+          "length": 173000
+        }
+      ]
+    }
+  ],
+  "asin": null,
+  "status": "Official",
+  "release-events": [
+    {
+      "date": "2012-07-20",
+      "area": {
+        "iso-3166-1-codes": ["XW"],
+        "type": null,
+        "sort-name": "[Worldwide]",
+        "disambiguation": "",
+        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+        "name": "[Worldwide]",
+        "type-id": null
+      }
+    }
+  ],
+  "quality": "normal"
+}
