@@ -78,7 +78,9 @@ foreach ($listen in $jsonListens) {
             $reqData = Invoke-WebRequest -Uri "https://musicbrainz.org/ws/2/release/" + $listen.track_metadata.mbid_mapping.release_mbid + "?inc=artists&fmt=json"
             $reqDataJson = $reqData.Content | ConvertFrom-Json
             $entry.AlbumAlbumName = $reqDataJson.title
-            $entry.AlbumArtistName = $reqDataJson.'artist-credit' | Select-Object -Property name,joinphrase | ForEach-Object { $var += $_.name + $_.joinphrase }
+            $varArtist = ""
+            $reqDataJson.'artist-credit' | Select-Object -Property name,joinphrase | ForEach-Object { $varArtist += $_.name + $_.joinphrase }
+            $entry.AlbumArtistName = $varArtist
         }
 
         if ($null -eq $entry.MilliSecondsPlayed -or $null -eq $entry.TrackName) {
