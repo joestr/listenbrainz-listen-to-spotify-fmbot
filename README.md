@@ -1,3 +1,3 @@
 # ListenBrainz Listens-To-Spotify For .fmbot
 
-This is a basic script to convert listenbrainz listen data to spotify format to be imported into .fmbot.
+This is a basic PowerShell script to convert ListenBrainz's listen data to Spotify's history format to be imported into `.fmbot`.
