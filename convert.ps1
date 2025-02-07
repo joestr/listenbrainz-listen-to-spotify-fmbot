@@ -1,11 +1,11 @@
 # Path to the extracte listenbrainz archive
-$listenbrainzExportPath = Get-Item -Path ".\listenbrainz_joestr_1738750872"
+$listenbrainzExportPath = Get-Item -Path "./listenbrainz_joestr_1738957731"
 
 # exclusive boundary > for when to start converting
-$importFromTimestamp = Get-Date -Year 2024 -Month 12 -Day 31
+$importFromTimestamp = Get-Date -Year 2025 -Month 01 -Day 31
 
 # exclusive boundary < for when to stop converting
-$importToTimestamp = Get-Date -Year 2025 -Month 02 -Day 1
+$importToTimestamp = Get-Date -Year 2025 -Month 02 -Day 07
 
 $doesListensFolderExists = Test-Path -Path "$listenbrainzExportPath/listens"
 
@@ -68,7 +68,7 @@ foreach ($listen in $jsonListens) {
     $entry = [SpotifyEndSongImportModel]::new()
     $entry.TimeStampUtc = Get-Date -UnixTimeSeconds $listen.listened_at
 
-    if ($entry.TimeStampUtc.Date -gt $importFromTimestamp.Date -and $entry.TimeStampUtc.Date -lt $importToTimestamp.Date) {
+    if ($entry.TimeStampUtc -gt $importFromTimestamp -and $entry.TimeStampUtc.Date -lt $importToTimestamp) {
         $entry.TrackName = $listen.track_metadata.track_name
         $entry.AlbumAlbumName = $listen.track_metadata.release_name
         $entry.AlbumArtistName = $listen.track_metadata.artist_name
@@ -93,6 +93,8 @@ foreach ($listen in $jsonListens) {
         $spotifyExports += $entry
     }
 }
+
+$spotifyExports = $spotifyExports | Sort-Object -Property TimeStampUtc
 
 $realExports = @()
 foreach ($spotifyExport in $spotifyExports) {
